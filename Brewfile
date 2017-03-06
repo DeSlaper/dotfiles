@@ -34,7 +34,7 @@ brew 'trash'
 brew 'wget'
 
 # Development
-brew 'php71', args: ['with-debug']
+brew 'php71'
 brew 'php71-intl'
 brew 'mariadb'
 
@@ -55,12 +55,25 @@ cask 'shuttle'
 cask 'slack'
 cask 'sublime-text'
 cask 'tower'
-cask 'transmit'
+cask 'cyberduck'
 cask 'vagrant'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 cask 'vlc'
 cask 'etcher'
+# cask 'telegram-desktop'
+cask 'telegram'
+cask 'textmate'
+cask 'sourcetree'
+cask 'macdown'
+cask 'teamviewer'
+cask 'tunnelblick'
+cask 'openoffice'
+cask 'skype'
+cask 'colloquy'
+cask 'docker'
+cask 'docker-toolbox'
+
 
 # Quicklook
 cask 'qlcolorcode'
@@ -70,17 +83,14 @@ cask 'quicklook-csv'
 cask 'qlstephen'
 
 # Fonts
-cask 'font-sauce-code-powerline'
+# cask 'font-sauce-code-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
+cask 'font-fira-code'
 
 # Install Mac App Store apps
 mas '1Password', id: 443987910
-mas 'Byword', id: 420212497
-mas 'Deckset', id: 847496013
-mas 'Giphy Capture', id: 668208984
-mas 'Paw', id: 584653203
 mas 'Sip', id: 507257563
-mas 'Sketch', id: 402476602
-mas 'Tweetbot', id: 557168941
+mas 'TweetDeck', id:485812721
+mas 'MemoryClean', id:451444120
