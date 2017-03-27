@@ -64,9 +64,6 @@ defaults write NSGlobalDomain AppleMetricUnits -bool true
 # Disable “natural” (Lion-style) scrolling
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
-# Set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 0
-
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 sudo systemsetup -settimezone "Europe/Amsterdam" > /dev/null
 
@@ -138,6 +135,9 @@ defaults write NSGlobalDomain _HIHideMenuBar -bool true
 ###############################################################################
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
+
+# Remove that anoying bouncy icons every time something happens
+default write com.apple.dock no-bouncing -bool true
 
 # Dark menu bar and dock
 defaults write $HOME/Library/Preferences/.GlobalPreferences.plist AppleInterfaceTheme -string "Dark"

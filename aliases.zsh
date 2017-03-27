@@ -6,6 +6,7 @@ alias ll="$(brew --prefix coreutils)/libexec/gnubin/ls -ahlF --color --group-dir
 alias weather="curl -4 http://wttr.in"
 alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
+alias yt-dl="youtube-dl -x --audio-format mp3 "
 
 # Directories
 alias dotfiles="cd $DOTFILES"
@@ -22,3 +23,6 @@ alias vhalt="vagrant halt"
 alias vssh="vagrant ssh"
 alias vreload="vagrant reload"
 alias vrebuild="vagrant destroy --force && vagrant up"
+
+# Git
+alias gcim="git commit -m"

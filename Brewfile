@@ -32,6 +32,10 @@ brew 'mas'
 brew 'node'
 brew 'trash'
 brew 'wget'
+brew 'httpie'
+
+brew 'ffmpeg'
+brew 'youtube-dl'
 
 # Development
 brew 'php71'
@@ -73,6 +77,7 @@ cask 'skype'
 cask 'colloquy'
 cask 'docker'
 cask 'docker-toolbox'
+cask 'tigervnc-viewer'
 
 
 # Quicklook
